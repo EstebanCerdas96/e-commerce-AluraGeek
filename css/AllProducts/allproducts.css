@@ -1,0 +1,40 @@
+.products__header{
+    display: flex;
+    width: 1133px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products__header h1{
+    color: var(--preto-100);
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.products__btn{
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--azul-100);
+    border: none;
+    color: var(--preto-branco);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.products__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+

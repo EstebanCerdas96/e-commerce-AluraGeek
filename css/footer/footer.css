@@ -1,0 +1,124 @@
+.footer{
+    display: flex;
+    padding: 64px;
+    justify-content: center;
+    align-items: center;
+    gap: 115px;
+    align-self: stretch;
+    background: var(--azul-10);
+}
+
+.footer__container{
+    display: flex;
+    width: 1136px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 112px;
+}
+
+.footer__img{
+    display: flex;
+    width: 176px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.footer__info-ul{
+    display: flex;
+    width: 176px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.footer__info-text{
+    align-self: stretch;
+    color: var(--preto-100);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer__contacto{
+    display: flex;
+    width: 560px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.footer__contacto p{
+    align-self: stretch;
+    color: var(--preto-100, #464646);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.input__container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.input__nombre{
+    padding: 8px;
+    gap: 7px;
+    align-self: stretch;
+    border-radius: 4px;
+    background: var(--preto-branco);
+    border: none;
+}
+
+.input__nombre::placeholder{
+    color: var(--preto-50);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; 
+}
+
+.textarea__mensaje{
+    padding: 8px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: none;
+    background: var(--preto-branco);
+}
+
+.textarea__mensaje::placeholder{
+    width: 304px;
+    color: var(--preto-50);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.contacto__btn{
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--azul-100);
+    border: none;
+    color: var(--preto-branco, #FFF);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}

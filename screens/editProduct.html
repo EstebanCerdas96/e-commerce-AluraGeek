@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="../img/favicon.svg">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href = "https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Inter:wght@100;200;300;700;800;900&family=Raleway:wght@100;300;400;500;600;700&family=Varela+Round&display=swap" rel = "stylesheet">
+    <link rel="stylesheet" href="../css/root.css">
+    <link rel="stylesheet" href="../css/AddProduct/addHeader.css">
+    <link rel="stylesheet" href="../css/footer/footer.css">
+    <link rel="stylesheet" href="../css/footer/rodapie.css">
+    <link rel="stylesheet" href="../css/AddProduct/addproduct.css">
+</head>
+
+<body>
+    <header class="add__header">
+        <div class="add__header-container">
+            <div class="add__header-container-search">
+                <div class="logo">
+                    <a href="../index.html"><img src="../img/Logo.png" alt="logo" class="header__logo"></a>
+                </div>
+                <div class="add__search">
+                    <input type="text" placeholder="¿Qué deseas buscar?" class="add__header-search">
+                    <img src="../img/search.svg" alt="busqueda" class="add__icon-search">
+                </div>
+            </div>
+            <button class="add__header-btn">Menú administrador</button>
+        </div>
+    </header>
+    <main>
+        <section class="add__container">
+            <form class="add__form" data-form>
+                <h1 class="add__title">Editar producto</h1>
+                <input type="text" class="add__URL input" placeholder="URL de la imagen" required>
+                <input type="text" class="add__categoria input" placeholder="Categoría" required>
+                <input type="text" class="add__nombre input" placeholder="Nombre del producto" required>
+                <input type="text" class="add__precio input" placeholder="Precio del producto" required>
+                <textarea name="descripcion" id="descripcion" class="add__descripcion" cols="30" rows="3" placeholder="Descripcion del producto" required></textarea>
+                <button class="add__btn">Finalizar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <div class="footer__container">
+                <img src="../img/Logo.png" alt="AluraGeek" class="footer__img">
+                <div class="footer__info">
+                    <ul class="footer__info-ul">
+                        <li class = "footer__info-li"><a class = "footer__info-text" href = "#">Quienes somos</a></li>
+                        <li class = "footer__info-li"><a class = "footer__info-text" href = "#">Política de privacidad</a></li>
+                        <li class = "footer__info-li"><a class = "footer__info-text" href = "#">Programa de fidelidad</a></li>
+                        <li class = "footer__info-li"><a class = "footer__info-text" href = "#">Nuestras Tiendas</a></li>
+                        <li class = "footer__info-li"><a class = "footer__info-text" href = "#">Quiero ser franquiciado</a></li>
+                        <li class = "footer__info-li"><a class = "footer__info-text" href = "#">Anúncie aquí</a></li>
+                    </ul>
+                </div>
+                <form class="footer__contacto">
+                    <p>Hable con nosotros</p>
+                    <div class="input__container">
+                        <input type="text" placeholder="Nombre" class="input__nombre" required>
+                        <textarea name="mensaje" id="mensaje" cols="40" rows="5" placeholder="Escribe tu mensaje" class="textarea__mensaje" required></textarea>
+                    </div>
+                    <button class="contacto__btn">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+        <section class="rodapie">
+            <div class="rodapie__container">
+                <p>Desarrollado por Esteban Cerdas Pérez</p>
+                <p>2023</p>
+            </div>
+        </section>
+    </footer>
+    <script type="module" src="../controllers/edit-controller.js"></script>
+</body>
+</html>

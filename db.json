@@ -1,0 +1,148 @@
+{
+  "product": [
+    {
+      "name": "Taza stormtrooper",
+      "price": "$60,00",
+      "description": "Tazas stormtrooper",
+      "id": "sw1",
+      "img": "./img/sw1.png",
+      "category": "Star Wars"
+    },
+    {
+      "name": "Cabezas Darth Vader",
+      "price": "$60,00",
+      "description": "2 cabezas de stars wars para adorno",
+      "id": "sw2",
+      "img": "./img/sw2.png",
+      "category": "Star Wars"
+    },
+    {
+      "name": "Figura Yoda",
+      "price": "$60,00",
+      "description": "Pequeña figura de Yoda de star wars para adorno",
+      "id": "sw3",
+      "img": "./img/sw3.png",
+      "category": "Star Wars"
+    },
+    {
+      "name": "Stormtrooper",
+      "price": "$60,00",
+      "description": "Una figura de stormtrooper para adorno",
+      "id": "sw4",
+      "img": "./img/sw4.png",
+      "category": "Star Wars"
+    },
+    {
+      "name": "Baby Yoda",
+      "price": "$60,00",
+      "description": "Una figura de Baby Yoda para adorno",
+      "id": "sw5",
+      "img": "./img/sw5.png",
+      "category": "Star Wars"
+    },
+    {
+      "name": "Figura Star Wars",
+      "price": "$60,00",
+      "description": "Una figura de star wars para adorno",
+      "id": "sw6",
+      "img": "./img/sw6.png",
+      "category": "Star Wars"
+    },
+    {
+      "name": "Control Xbox",
+      "price": "$60,00",
+      "description": "Control inalambrico para Xbox",
+      "id": "c1",
+      "img": "./img/c1.png",
+      "category": "Consolas"
+    },
+    {
+      "name": "Ps4",
+      "price": "$60,00",
+      "description": "Una consola Play Station 4 con un control",
+      "id": "c2",
+      "img": "./img/c2.png",
+      "category": "Consolas"
+    },
+    {
+      "name": "NES",
+      "price": "$60,00",
+      "description": "Una consola Nintendo Entertainment System tambien conocida como NES",
+      "id": "c3",
+      "img": "./img/c3.png",
+      "category": "Consolas"
+    },
+    {
+      "name": "Controles Nintendo Switch",
+      "price": "$60,00",
+      "description": "2 controles de nintendo switch",
+      "id": "c4",
+      "img": "./img/c4.png",
+      "category": "Consolas"
+    },
+    {
+      "name": "Xbox",
+      "price": "$60,00",
+      "description": "Una consola de Xbox Series x",
+      "id": "c5",
+      "img": "./img/c5.png",
+      "category": "Consolas"
+    },
+    {
+      "name": "Game Boy Color",
+      "price": "$60,00",
+      "description": "Una consola Game Boy Color que incluye 3 juegos",
+      "id": "c6",
+      "img": "./img/c6.png",
+      "category": "Consolas"
+    },
+    {
+      "name": "Camisa Atari",
+      "price": "$60,00",
+      "description": "Una camisa con el logo de la famosa compañía Atari",
+      "id": "d1",
+      "img": "./img/d1.png",
+      "category": "Diversos"
+    },
+    {
+      "name": "Camisa SNES",
+      "price": "$60,00",
+      "description": "Una camisa con el logo de la famosa compañía SNES",
+      "id": "d2",
+      "img": "./img/d2.png",
+      "category": "Diversos"
+    },
+    {
+      "name": "Sonic",
+      "price": "$60,00",
+      "description": "Una figura de sonic para adorno",
+      "id": "d3",
+      "img": "./img/d3.png",
+      "category": "Diversos"
+    },
+    {
+      "name": "Reloj",
+      "price": "$60,00",
+      "description": "Un antiguo reloj con radio incluido",
+      "id": "d4",
+      "img": "./img/d4.png",
+      "category": "Diversos"
+    },
+    {
+      "name": "Realidad Virtual",
+      "price": "$60,00",
+      "description": "Unos lentes de realidad virtual de última generación",
+      "id": "d5",
+      "img": "./img/d5.png",
+      "category": "Diversos"
+    },
+    {
+      "name": "Pikachu",
+      "price": "$60,00",
+      "description": "Un traje de Pikachu  para una persona adulta",
+      "id": "d6",
+      "img": "./img/d6.png",
+      "category": "Diversos"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="shortcut icon" href="./img/favicon.svg">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link href = "https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Inter:wght@100;200;300;700;800;900&family=Raleway:wght@100;300;400;500;600;700&family=Varela+Round&display=swap" rel = "stylesheet">
+    <link rel="stylesheet" href="./css/root.css">
+    <link rel="stylesheet" href="./css/header/header.css">
+    <link rel="stylesheet" href="./css/hero/hero.css">
+    <link rel="stylesheet" href="./css/productos/productos.css">
+    <link rel="stylesheet" href="./css/footer/footer.css">
+    <link rel="stylesheet" href="./css/footer/rodapie.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__container-search">
+                <div class="logo">
+                    <a href="./index.html"><img src="./img/Logo.png" alt="logo" class="header__logo"></a>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="¿Qué deseas buscar?" class="header__search">
+                    <img src="./img/search.svg" alt="busqueda" class="icon__search">
+                </div>
+            </div>
+            <a href="./screens/login.html" class="header__login"><button class="header__login-btn">Login</button></a>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero__container">
+                <h1>Febrero Promocional</h1>
+                <h2>Productos selecionados con 33% de descuento</h2>
+                <a href="#consolas"><button class="hero__container-btn">Ver consolas</button></a>
+            </div>
+        </section>
+        <section class="productos__sw" id="star wars">
+            <div class="productos__container">
+                <div class="productos__header">
+                    <h2 class="productos__header-title">Star Wars</h1>
+                    <a href="./screens/allProducts.html"><button class="productos__header-btn">Ver todos<img src="./img/arrow.svg" alt="flecha" class="productos__header-btn-img"></button></a>
+                </div>
+                <div class="productos__lista" data-starwars>
+                    <div class="productos__card" >
+                        
+                    </div>
+                    <!-- <div class="productos__card">
+                        <img src="./img/sw1.png" alt="taza">
+                        <div class="productos__info">
+                            <p class="productos__nombre">Producto XYZ</p>
+                            <p class="productos__precio">$60,00</p>
+                            <a class="productos__btn">Ver producto</a>
+                        </div>
+                    </div>
+                    <div class="productos__card">
+                        <img src="./img/sw2.png" alt="cabezas">
+                        <div class="productos__info">
+                            <p class="productos__nombre">Producto XYZ</p>
+                            <p class="productos__precio">$60,00</p>
+                            <a class="productos__btn">Ver producto</a>                        
+                        </div>
+                    </div>
+                    <div class="productos__card">
+                        <img src="./img/sw3.png" alt="yoda">
+                        <div class="productos__info">
+                            <p class="productos__nombre">Producto XYZ</p>
+                            <p class="productos__precio">$60,00</p>
+                            <a class="productos__btn">Ver producto</a>                        
+                        </div>
+                    </div>
+                    <div class="productos__card">
+                        <img src="./img/sw4.png" alt="stormtroopers">
+                        <div class="productos__info">
+                            <p class="productos__nombre">Producto XYZ</p>
+                            <p class="productos__precio">$60,00</p>
+                            <a class="productos__btn">Ver producto</a>                        
+                        </div>
+                    </div>
+                    <div class="productos__card">
+                        <img src="./img/sw5.png" alt="baby yoda">
+                        <div class="productos__info">
+                            <p class="productos__nombre">Producto XYZ</p>
+                            <p class="productos__precio">$60,00</p>
+                            <a class="productos__btn">Ver producto</a>                        
+                        </div>
+                    </div>
+                    <div class="productos__card">
+                        <img src="./img/sw6.png" alt="#">
+                        <div class="productos__info">
+                            <p class="productos__nombre">Producto XYZ</p>
+                            <p class="productos__precio">$60,00</p>
+                            <a class="productos__btn">Ver producto</a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <section class="productos__c" id="consolas">
+            <div class="productos__container">
+                <div class="productos__header">
+                    <h2 class="productos__header-title">Consolas</h1>
+                    <a href="./screens/allProducts.html"><button class="productos__header-btn">Ver todos<img src="./img/arrow.svg" alt="flecha" class="productos__header-btn-img"></button></a>
+                </div>
+                <div class="productos__lista" data-consolas>
+                    <div class="productos__card" >
+                        
+                    </div>
+                    <!-- <div class="productos__card">
+                        <img src="./img/c1.png" alt="taza">
+                        <div class="productos__info">
+                            <p class="productos__nombre">Control XYZ</p>
+                            <p class="productos__precio">$60,00</p>
+                            <a class="productos__btn">Ver producto</a>
+                        </div>
+                    </div>
+                    <div class="productos__card">
+                        <img src="./img/c2.png" alt="cabezas">
+                        <div class="productos__info">
+                            <p class="productos__nombre">Control y Consola XYZ</p>
+                            <p class="productos__precio">$60,00</p>
+                            <a class="productos__btn">Ver producto</a>                        
+                        </div>
+                    </div>
+                    <div class="productos__card">
+                        <img src="./img/c3.png" alt="yoda">
+                        <div class="productos__info">
+                            <p class="productos__nombre">Consola XYZ</p>
+                            <p class="productos__precio">$60,00</p>
+                            <a class="productos__btn">Ver producto</a>                        
+                        </div>
+                    </div>
+                    <div class="productos__card">
+                        <img src="./img/c4.png" alt="stormtroopers">
+                        <div class="productos__info">
+                            <p class="productos__nombre">Control XYZ</p>
+                            <p class="productos__precio">$60,00</p>
+                            <a class="productos__btn">Ver producto</a>                        
+                        </div>
+                    </div>
+                    <div class="productos__card">
+                        <img src="./img/c5.png" alt="baby yoda">
+                        <div class="productos__info">
+                            <p class="productos__nombre">Consola XYZ</p>
+                            <p class="productos__precio">$60,00</p>
+                            <a class="productos__btn">Ver producto</a>                        
+                        </div>
+                    </div>
+                    <div class="productos__card">
+                        <img src="./img/c6.png" alt="#">
+                        <div class="productos__info">
+                            <p class="productos__nombre">Game Boy Color</p>
+                            <p class="productos__precio">$60,00</p>
+                            <a class="productos__btn">Ver producto</a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <section class="productos__d" id="diversos">
+            <div class="productos__container">
+                <div class="productos__header">
+                    <h2 class="productos__header-title">Diversos</h1>
+                    <a href="./screens/allProducts.html"><button class="productos__header-btn">Ver todos<img src="./img/arrow.svg" alt="flecha" class="productos__header-btn-img"></button></a>
+                </div>
+                <div class="productos__lista" data-diversos>
+                    <div class="productos__card" >
+                        
+                    </div>
+                    <!-- <div class="productos__card">
+                        <img src="./img/d1.png" alt="taza">
+                        <div class="productos__info">
+                            <p class="productos__nombre">Camisa Atari</p>
+                            <p class="productos__precio">$60,00</p>
+                            <a class="productos__btn">Ver producto</a>
+                        </div>
+                    </div>
+                    <div class="productos__card">
+                        <img src="./img/d2.png" alt="cabezas">
+                        <div class="productos__info">
+                            <p class="productos__nombre">Camisa SNES</p>
+                            <p class="productos__precio">$60,00</p>
+                            <a class="productos__btn">Ver producto</a>                        
+                        </div>
+                    </div>
+                    <div class="productos__card">
+                        <img src="./img/d3.png" alt="yoda">
+                        <div class="productos__info">
+                            <p class="productos__nombre">Producto XYZ</p>
+                            <p class="productos__precio">$60,00</p>
+                            <a class="productos__btn">Ver producto</a>                        
+                        </div>
+                    </div>
+                    <div class="productos__card">
+                        <img src="./img/d4.png" alt="stormtroopers">
+                        <div class="productos__info">
+                            <p class="productos__nombre">Reloj XYZ</p>
+                            <p class="productos__precio">$60,00</p>
+                            <a class="productos__btn">Ver producto</a>                        
+                        </div>
+                    </div>
+                    <div class="productos__card">
+                        <img src="./img/d5.png" alt="baby yoda">
+                        <div class="productos__info">
+                            <p class="productos__nombre">Control y Consola XYZ</p>
+                            <p class="productos__precio">$60,00</p>
+                            <a class="productos__btn">Ver producto</a>                        
+                        </div>
+                    </div>
+                    <div class="productos__card">
+                        <img src="./img/d6.png" alt="#">
+                        <div class="productos__info">
+                            <p class="productos__nombre">Producto XYZ</p>
+                            <p class="productos__precio">$60,00</p>
+                            <a class="productos__btn">Ver producto</a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <div class="footer__container">
+                <img src="./img/Logo.png" alt="" class="footer__img">
+                <div class="footer__info">
+                    <ul class="footer__info-ul">
+                        <li class = "footer__info-li"><a class = "footer__info-text" href = "#">Quienes somos</a></li>
+                        <li class = "footer__info-li"><a class = "footer__info-text" href = "#">Política de privacidad</a></li>
+                        <li class = "footer__info-li"><a class = "footer__info-text" href = "#">Programa de fidelidad</a></li>
+                        <li class = "footer__info-li"><a class = "footer__info-text" href = "#">Nuestras Tiendas</a></li>
+                        <li class = "footer__info-li"><a class = "footer__info-text" href = "#">Quiero ser franquiciado</a></li>
+                        <li class = "footer__info-li"><a class = "footer__info-text" href = "#">Anúncie aquí</a></li>
+                    </ul>
+                </div>
+                <form class="footer__contacto">
+                    <p>Hable con nosotros</p>
+                    <div class="input__container">
+                        <input type="text" placeholder="Nombre" class="input__nombre" required>
+                        <textarea name="mensaje" id="mensaje" cols="40" rows="5" placeholder="Escribe tu mensaje" class="textarea__mensaje" required></textarea>
+                    </div>
+                    <button class="contacto__btn">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+        <section class="rodapie">
+            <div class="rodapie__container">
+                <p>Desarrollado por Esteban Cerdas Pérez</p>
+                <p>2023</p>
+            </div>
+        </section>
+    </footer>
+    <script type="module" src="./controllers/productos-controller.js"></script>
+</body>
+</html>
